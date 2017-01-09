@@ -1,8 +1,21 @@
 <h3>Oguz Özkaraca</h3>
 
-<h2>Angular</h2>
+<h2>Angular Directive</h2>
 
-<h1>Directive</h1>
+<table>
+    <th>
+    <tr>
+        <td>Name</td>
+        <td>City</td>
+        <td>Country</td>
+    </tr>
+    </th>
+    <tr ng-repeat="user in myCtl.records">
+        <td>{{user.name}}</td>
+        <td>{{user.city}}</td>
+        <td>{{user.country}}</td>
+    </tr>
+</table>
 
 <p>
     {{myCtl.name}}
